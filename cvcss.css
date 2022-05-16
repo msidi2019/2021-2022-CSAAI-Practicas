@@ -1,0 +1,129 @@
+body {
+
+    background-image: url('img/oceano.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+
+}
+
+.container{
+
+    margin: 50px auto;
+}
+
+
+
+.columnaIzq{
+
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+hr{
+
+    border: 2px solid yellow;
+}
+
+
+h1 {
+
+    text-align: center;
+}
+
+.nombre{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.profilePic{
+
+    border: 2px solid yellow;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+
+.sobreMi{
+
+
+    text-align: center;
+
+}
+
+.contacto{
+
+    text-align: center;
+}
+
+.aficciones{
+
+    text-align: center;
+}
+
+.titulos{
+    font-size: 45px;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+
+.row i {
+
+    height: fit-content;
+    padding-top:  20px;
+    line-height: 30px !important;
+}
+
+
+
+.row i span {
+
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+
+.row i span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.experiencia li {
+
+    background-color: transparent !important
+}
+
+
+.estudios li{
+
+    background-color: transparent !important
+
+}
+
+.estudios li span {
+
+    background-color: red !important;
+
+}
+
+.idiomas li{
+
+    background-color: transparent !important
+
+}
+
+.otrosdatosdeinteres li{
+
+    background-color: transparent !important
+
+}
+
+
+.carruserFotos {
+
+max-height: 300px;
+max-width: 600px;
+
+}
