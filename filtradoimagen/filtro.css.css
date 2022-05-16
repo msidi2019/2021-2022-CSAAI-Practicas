@@ -1,0 +1,88 @@
+.botones{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(202, 42, 162);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 255, 255);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 2.05cm;
+}
+
+.desliz1{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(207, 10, 10);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 0.7cm;
+}
+.desliz2{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(34, 224, 34);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(0, 255, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.desliz3{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(20, 52, 233);
+    color:rgb(245, 245, 247);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(0, 0, 255);
+    border-style:groove;
+    border-radius: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.deslizador{
+    margin-left: 0.8cm;
+}
+.titulo{
+
+    display: inline-table;
+    flex-direction: row;
+    align-items:unset;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ivory;
+    margin-left: 1.8cm;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-size: 950px;
+    margin: left 100cm;
+    margin: right 100cm;
+}

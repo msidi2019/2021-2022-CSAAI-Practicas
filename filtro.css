@@ -1,0 +1,88 @@
+.botones{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 255, 255);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+    margin-left: 2.05cm;
+}
+
+.desliz1{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+    margin-left: 0.7cm;
+}
+.desliz2{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(0, 255, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+}
+.desliz3{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(0, 0, 255);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+}
+
+.deslizador{
+    margin-left: 0.8cm;
+}
+.titulo{
+
+    display: inline-table;
+    flex-direction: row;
+    align-items:unset;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: ivory;
+    margin-left: 1.8cm;
+}
+
+body {
+    background-image: url("onepiece1.jpg");
+    background-size: 1750px 1000px;
+    margin-left:15.5cm;
+    margin-top: 3cm;
+  }

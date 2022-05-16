@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filtro.css">
+    <script src="filtro.js" defer></script>
+    <title>Procesado de imágenes</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th><p class="titulo">IMAGEN ORIGINAL:</p>
+            <th><p class="titulo">IMAGEN MODIFICADA:</p>
+        </tr>
+    </table>
+
+    <img src='lofi.jpg' id='imagen'>
+    <canvas id='canvas'></canvas>
+    <br>
+    <button id="color" class="botones">Color</button>
+    <button id="gris" class="botones">Gris</button>
+    <button id="binario" class="botones">Negativo</button>
+
+    <table>
+        <tr>
+            <th><p class='desliz1'>RED:</p>
+            <th><p class='desliz2'>GREEN:</p>
+            <th><p class='desliz3'>BLUE:</p>
+        </tr>
+    </table>
+    
+    <table id=tabla>
+        <tr>
+            <th><input type="range" id="deslizadorr" class='deslizador' min="0" max="255" value="255"/><p id="range_value_red"></p>
+            <th><input type="range" id="deslizadorg" class='deslizador' min="0" max="255" value="255"/><p id="range_value_green"></p>
+            <th><input type="range" id="deslizadorb" class='deslizador' min="0" max="255" value="255"/><p id="range_value_blue"></p>
+        </tr>
+    </table>
+
+</body>
+</html>
